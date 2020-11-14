@@ -1,0 +1,829 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  background-color: #e2e2e2;
+  text-align: left;
+  font-weight: normal;
+  padding: 15px 0 15px 30px;
+  font-size: 20px !important;
+}
+
+header .header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  -webkit-box-shadow: 0 0 5px #5f5f5f;
+          box-shadow: 0 0 5px #5f5f5f;
+}
+
+header .header-top div {
+  margin: 0 auto;
+}
+
+main .headline {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .headline .btn-img {
+  background: url(img/bg_btn_01_a.png) no-repeat left top;
+  width: 960px;
+  height: 500px;
+  margin: 0 auto 1.6em;
+  position: relative;
+}
+
+main .headline .btn-img img {
+  position: absolute;
+  top: 240px;
+  left: 60px;
+}
+
+main article {
+  background-image: url(img/bg_pat_01.png);
+  padding-bottom: 50px;
+}
+
+main .landing-img {
+  text-align: center;
+  background-color: orange;
+}
+
+main .landing-text {
+  padding: 70px 0;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main .landing-text p {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+main .landing-text p span {
+  background-color: #ffda97;
+  font-weight: bold;
+}
+
+main .landing-pf {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 4px #bbbbbb;
+          box-shadow: 0px 0px 4px #bbbbbb;
+  margin: 30px 0;
+}
+
+main .company {
+  width: 70%;
+  margin: 0 auto;
+}
+
+main .company h2 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+main .company .spiral {
+  margin: 20px 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px #bbbbbb;
+          box-shadow: 0 0 4px #bbbbbb;
+}
+
+main .company .spiral h3 {
+  margin: 0;
+}
+
+main .company .spiral h3 span {
+  font-size: 14px;
+}
+
+main .company .spiral div {
+  padding: 25px 40px;
+}
+
+main .company .spiral div p {
+  margin: 25px 0;
+}
+
+main .company .spiral div p:nth-child(4) {
+  font-size: 25px;
+}
+
+main .company .spiral div ul {
+  margin-top: 30px;
+  list-style: disc;
+}
+
+main .company .spiral div p:nth-child(9) {
+  font-size: 13px;
+}
+
+main .company .spiral div .small {
+  margin-bottom: 0;
+}
+
+main .company .trinity {
+  margin: 20px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px #bbbbbb;
+          box-shadow: 0 0 4px #bbbbbb;
+}
+
+main .company .trinity h3 {
+  margin: 0;
+}
+
+main .company .trinity h3 span {
+  font-size: 14px;
+}
+
+main .company .trinity div {
+  padding: 25px 40px;
+}
+
+main .company .trinity div p {
+  margin: 25px 0;
+}
+
+main .company .trinity div p:nth-child(4) {
+  font-size: 25px;
+}
+
+main .company .trinity div ul {
+  margin-top: 30px;
+  list-style: disc;
+}
+
+main .company .trinity div p:nth-child(9) {
+  font-size: 13px;
+}
+
+main .company .trinity div .small {
+  margin-bottom: 0;
+}
+
+main .company .port ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .company .port ul li {
+  width: 27%;
+  margin: 30px auto;
+}
+
+main .company img {
+  width: 100%;
+}
+
+main .page {
+  background: url(img/bg_btn_01_a.png) no-repeat left top;
+  width: 960px;
+  height: 500px;
+  margin: 0 auto 1.6em;
+  position: relative;
+}
+
+main .page img {
+  position: absolute;
+  top: 240px;
+  left: 60px;
+}
+
+main .uab h2 {
+  text-align: center;
+  background-color: orange;
+}
+
+main .uab .contract {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .uab .contract .point {
+  margin: 80px 0 30px;
+  font-size: 20px;
+}
+
+main .uab .contract-text {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+main .uab .contract-text h3 {
+  position: absolute;
+  left: 14%;
+  background-image: url(img/bg_arrow_02.png);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 24px !important;
+  width: 72%;
+  text-align: center;
+  background-color: orange;
+}
+
+main .uab .contract-text div span {
+  background-color: #ffda97;
+}
+
+main .uab .contract-text .text {
+  margin-top: 70px;
+  padding: 0 40px;
+  text-align: left;
+}
+
+main .uab .contract-text .left {
+  text-align: left;
+  padding-left: 110px;
+}
+
+main .uab .contract-text .rew {
+  margin-top: 140px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+main .uab .contract-text .rew img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+main .uab .contract-text .low {
+  margin-top: 100px;
+  padding: 0 30px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .uab .contract-text .low div {
+  width: 47%;
+  margin: 0 auto;
+}
+
+main .uab .contract-text .rew2 {
+  margin-top: 140px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+main .uab .contract-text .rew2 img {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+main .uab .contract-text .rew3 {
+  margin-top: 100px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+main .orange {
+  background: url(img/bg_pat_03.png);
+}
+
+main .orange-img {
+  padding: 30px 0;
+  text-align: center;
+}
+
+main .ver {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+}
+
+main .ver span {
+  background-color: #ffda97;
+  font-weight: bold;
+}
+
+main .ver div:first-child {
+  width: 50%;
+  margin: 0 auto;
+}
+
+main .uab .box {
+  width: 70%;
+  margin: 60px auto 40px;
+  padding: 70px 0 40px;
+  background-color: #000;
+}
+
+main .uab .box div {
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0 30px;
+}
+
+main .uab .box div li::before {
+  display: inline-block;
+  content: "✔︎";
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  margin-right: 30px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: orange;
+}
+
+main .uab .caution {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .uab .caution p {
+  text-align: left;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+main .uab .step {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .uab .step-box {
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .uab .step-box div {
+  position: relative;
+  font-size: 12px;
+  margin: 0 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 6px solid orange;
+}
+
+main .uab .step-point {
+  height: 240px;
+}
+
+main .uab .step-icon {
+  position: absolute;
+  top: 0;
+}
+
+main .uab .step-arrow {
+  position: absolute;
+  top: 70px;
+  left: 84%;
+  z-index: 1;
+}
+
+main .uab .applicable {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+main .uab .applicable .point {
+  margin: 40px 0 30px;
+  font-size: 20px;
+}
+
+main .uab .applicable-text {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+main .uab .applicable-text h3 {
+  position: absolute;
+  left: 14%;
+  background-image: url(img/bg_arrow_02.png);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 24px !important;
+  width: 72%;
+  color: #fff;
+  text-align: center;
+  background-color: darkred;
+}
+
+main .uab .applicable-text div span {
+  background-color: #ffda97;
+}
+
+main .uab .applicable-text .text {
+  margin-top: 70px;
+  padding: 0 40px;
+  text-align: left;
+}
+
+main .uab .applicable-text .left {
+  text-align: left;
+  padding-left: 110px;
+}
+
+main .uab .applicable-text .rew {
+  margin-top: 120px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+main .uab .applicable-text .rew img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+main .uab .applicable-text .low {
+  margin-top: 100px;
+  padding: 0 30px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .uab .applicable-text .low div {
+  width: 47%;
+  margin: 0 auto;
+}
+
+main .uab .applicable-text .rew2 {
+  margin-top: 140px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+main .uab .applicable-text .rew2 img {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+main .uab .applicable-text .rew3 {
+  margin-top: 100px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+main .uab .black-box {
+  background-color: black;
+  width: 75%;
+  margin: 0 auto 50px;
+  padding: 50px 0;
+}
+
+main .uab .black-box section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 30px;
+  background-color: #e7e7e7;
+}
+
+main .uab .black-box section div {
+  border-bottom: 2px dashed gray;
+  padding: 20px 0;
+}
+
+main .uab .black-box section div h4 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+main .uab .black-box section div h4::before {
+  content: "Q";
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: orange;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+main .uab .black-box section div p {
+  padding-left: 50px;
+}
+
+main .uab .black-box section div p span {
+  font-size: 13px;
+}
+
+main .uab .red {
+  background-color: #9b0000 !important;
+}
+
+main .uab .service {
+  width: 80%;
+  background-color: #fff;
+  background-image: url(img/bg_arrow_02.png);
+  background-size: cover;
+  margin: 70px auto 0;
+  text-align: center;
+  padding: 30px;
+}
+
+main .uab .service a {
+  color: gray;
+  text-decoration: underline;
+}
+
+footer section:first-child {
+  background-color: #d7d7db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0;
+}
+
+footer section:first-child div:first-child {
+  width: 40%;
+  padding-right: 20px;
+  height: 100px;
+  border-right: 1px solid gray;
+  text-align: end;
+}
+
+footer section:first-child div:last-child {
+  width: 60%;
+  margin-left: 30px;
+}
+
+footer section:first-child div:last-child ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+footer section:first-child div:last-child ul li {
+  font-size: 10px;
+  padding: 0 5px;
+  border-right: 1px solid gray;
+}
+
+footer section:first-child div:last-child ul li a {
+  color: gray;
+  text-decoration: underline;
+}
+
+footer section:first-child div:last-child ul li a:hover {
+  color: darkred;
+}
+
+footer section:first-child div:last-child ul li:last-child {
+  border-right: transparent;
+}
+
+footer section:first-child div:last-child small {
+  display: block;
+  font-size: 10px;
+  color: gray;
+}
+
+footer section:last-child {
+  background-color: #303030;
+  text-align: center;
+  height: 70px;
+  padding-top: 10px;
+}
+
+footer section:last-child a {
+  color: gray;
+}
+
+footer section:last-child a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 414px) {
+  header .header-top div:first-child {
+    width: 40%;
+  }
+  header .header-top div:last-child {
+    width: 50%;
+    display: inline-table;
+  }
+  header .header-top div:last-child img {
+    max-width: 50%;
+  }
+  main .headline .btn-img {
+    width: 100%;
+    background-size: contain;
+    height: 200px;
+  }
+  main .headline .btn-img img {
+    top: 100px;
+    left: 30px;
+    max-width: 90%;
+  }
+  main article {
+    padding-bottom: 30px;
+  }
+  main .page {
+    width: 100%;
+    background-size: contain;
+    height: 200px;
+  }
+  main .page img {
+    top: 100px;
+    left: 30px;
+    max-width: 90%;
+  }
+  main .landing-text {
+    width: 95%;
+    padding: 30px 0;
+  }
+  main .landing-text p {
+    font-size: 15px;
+  }
+  main .company {
+    width: 95%;
+  }
+  main .company .spiral h3 {
+    padding-left: 0;
+  }
+  main .company .spiral div {
+    padding: 25px  20px;
+  }
+  main .company .trinity h3 {
+    padding-left: 0;
+  }
+  main .company .trinity div {
+    padding: 25px 20px;
+  }
+  main .company .port ul {
+    padding: 0;
+  }
+  main .company .port ul li {
+    margin: 15px auto;
+  }
+  main .uab .contract {
+    width: 90%;
+  }
+  main .uab .contract .point {
+    margin: 50px 0 30px;
+  }
+  main .uab .contract-text h3 {
+    left: 5%;
+    font-size: 20px !important;
+    width: 90%;
+  }
+  main .uab .contract-text .text {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+  main .uab .contract-text .left {
+    padding-left: 20px;
+  }
+  main .uab .contract-text .rew {
+    padding: 0 20px;
+  }
+  main .uab .contract-text .rew img {
+    max-width: 50%;
+  }
+  main .uab .contract-text .low {
+    display: block;
+    margin-top: 130px;
+  }
+  main .uab .contract-text .low div {
+    width: 90%;
+  }
+  main .uab .contract-text .low div:last-child {
+    width: 100%;
+  }
+  main .uab .contract-text .low:nth-child(6) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  main .ver {
+    width: 90%;
+  }
+  main .ver div:first-child {
+    width: 100%;
+  }
+  main .ver div:last-child {
+    width: 50%;
+  }
+  main .uab .box {
+    width: 95%;
+    padding: 30px 0;
+  }
+  main .uab .box ul {
+    padding: 0;
+  }
+  main .uab .box ul li {
+    font-size: 12px;
+  }
+  main .uab .box ul li::before {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  main .uab .caution {
+    width: 95%;
+  }
+  main .uab .step {
+    width: 95%;
+  }
+  main .uab .step-box {
+    width: 100%;
+    padding: 0;
+  }
+  main .uab .step-box div {
+    font-size: 10px;
+  }
+  main .uab .step-point {
+    font-size: 10px;
+  }
+  main .uab .step-icon {
+    width: 25%;
+  }
+  main .uab .step-arrow {
+    width: 70%;
+  }
+  main .uab .applicable {
+    width: 90%;
+  }
+  main .uab .applicable-text h3 {
+    width: 92%;
+    left: 4%;
+    text-align: left;
+    font-size: 15px !important;
+  }
+  main .uab .applicable-text .left {
+    padding-left: 40px;
+  }
+  main .uab .applicable-text .rew {
+    margin-top: 100px;
+  }
+  main .uab .applicable .point {
+    text-align: left;
+  }
+  main .uab .black-box {
+    width: 90%;
+  }
+  main .uab .black-box section div h4 {
+    font-size: 15px;
+  }
+  main .uab .black-box section div p {
+    padding-left: 0;
+  }
+  main .uab .service {
+    width: 90%;
+    margin-top: 40px;
+  }
+  footer img {
+    max-width: 50%;
+  }
+  footer section:first-child div:last-child {
+    margin-left: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
